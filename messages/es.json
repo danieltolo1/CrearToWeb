@@ -1,0 +1,63 @@
+{
+  "Navbar": {
+    "services": "Servicios",
+    "process": "Proceso",
+    "pricing": "Precios",
+    "portfolio": "Portafolio",
+    "quote": "Cotizar ahora"
+  },
+  "Hero": {
+    "badge": "Agencia de diseño y desarrollo web",
+    "title": "Páginas web modernas que convierten visitas en clientes",
+    "description": "Diseñamos landing pages, sitios corporativos y tiendas online con estética premium, carga rápida y enfoque comercial.",
+    "primaryButton": "Ver paquetes",
+    "secondaryButton": "Conocer servicios"
+  },
+  "Benefits": {
+    "eyebrow": "Beneficios",
+    "title": "Todo lo que necesitas para destacar",
+    "description": "Creamos sitios web optimizados para generar confianza y ventas.",
+    "benefit1": "Diseño moderno",
+    "benefit2": "Carga rápida",
+    "benefit3": "Responsive",
+    "benefit4": "SEO básico"
+  },
+  "Services": {
+    "eyebrow": "Servicios",
+    "title": "Todo lo que tu negocio necesita online",
+    "description": "Creamos experiencias digitales claras, rápidas y enfocadas en resultados.",
+    "service1": "Landing pages",
+    "servicedes1":"Páginas enfocadas en convertir visitantes en clientes.",
+    "service2": "Webs corporativas",
+    "servicedes2":"Sitios profesionales para empresas, marcas y servicios.",
+    "service3": "Tiendas online",
+    "servicedes3":"E-commerce visual, rápido y preparado para vender.",
+    "service4": "Rediseño web",
+    "servicedes4":"Modernizamos tu sitio actual para que luzca profesional."
+  },
+  "Process": {
+    "eyebrow": "Proceso",
+    "title": "Cómo trabajamos",
+    "description": "Un proceso simple y transparente.",
+    "step1": "Consulta",
+    "step2": "Diseño",
+    "step3": "Desarrollo",
+    "step4": "Entrega"
+  },
+  "Pricing": {
+    "eyebrow": "Precios",
+    "title": "Paquetes simples y claros",
+    "description": "Elige el plan ideal según la etapa de tu negocio.",
+    "step1": "Consulta",
+    "step2": "Diseño",
+    "step3": "Desarrollo",
+    "step4": "Entrega"
+  },
+  "CTA": {
+    "quotenow": "Cotiza ahora",
+    "description": "Convierte tu idea en una página web profesional",
+    "description2": "Creamos sitios rápidos, modernos y diseñados para vender tus productos o servicios.",
+    "firstbutton": "Latam WhatsApp",
+    "secondbutton": "Usa WhatsApp"
+  }
+}

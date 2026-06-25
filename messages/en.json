@@ -1,0 +1,63 @@
+{
+  "Navbar": {
+    "services": "Services",
+    "process": "Process",
+    "pricing": "Pricing",
+    "portfolio": "Portfolio",
+    "quote": "Get a quote"
+  },
+  "Hero": {
+    "badge": "Web design and development agency",
+    "title": "Modern websites that turn visitors into customers",
+    "description": "We design landing pages, corporate websites, and online stores with a premium look, fast performance, and a sales-focused strategy.",
+    "primaryButton": "View packages",
+    "secondaryButton": "Explore services"
+  },
+  "Benefits": {
+    "eyebrow": "Benefits",
+    "title": "Everything you need to stand out",
+    "description": "We create websites optimized to build trust and drive sales.",
+    "benefit1": "Modern design",
+    "benefit2": "Fast loading",
+    "benefit3": "Responsive",
+    "benefit4": "Basic SEO"
+  },
+   "Services": {
+    "eyebrow": "Services",
+    "title": "Everything your business needs online",
+    "description": "We create clear, fast, and results-focused digital experiences.",
+    "service1": "Landing pages",
+    "servicedes1":"Pages focused on converting visitors into customers.",
+    "service2": "Corporate websites",
+    "servicedes2":"Professional websites for companies, brands, and services.",
+    "service3": "Online stores",
+    "servicedes3":"Visual e-commerce, fast and ready to sell.",
+    "service4": "Website redesign",
+    "servicedes4":"We modernize your current site to look professional."
+  },
+  "Process": {
+    "eyebrow": "Process",
+    "title": "How we work",
+    "description": "A simple and transparent process.",
+    "step1": "Consultation",
+    "step2": "Design",
+    "step3": "Development",
+    "step4": "Delivery"
+  },
+  "Pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple and clear packages",
+    "description": "Choose the ideal plan according to your business stage.",
+    "step1": "Consultation",
+    "step2": "Design",
+    "step3": "Development",
+    "step4": "Entrega"
+  },
+  "CTA": {
+    "quotenow": "Get a Quote",
+    "description": "Modern websites that turn visitors into customers",
+    "description2": "We create fast, modern websites designed to sell your products or services.",
+     "firstbutton": "Latam WhatsApp",
+    "secondbutton": "Usa WhatsApp"
+  }
+}
