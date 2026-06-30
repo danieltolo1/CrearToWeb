@@ -47,11 +47,71 @@
   "Pricing": {
     "eyebrow": "Pricing",
     "title": "Simple and clear packages",
-    "description": "Choose the ideal plan according to your business stage.",
-    "step1": "Consultation",
-    "step2": "Design",
-    "step3": "Development",
-    "step4": "Entrega"
+    "description": "Choose the annual plan that suits your needs.",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "From $40 per month",
+        "features": [
+          "Landing page",
+          "Responsive design",
+          "Contact form",
+          "Monthly Updates and Support"
+        ],
+        "button": "Request"
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "From $70 per month",
+        "features": [
+          "Up to 5 sections",
+          "Responsive design",
+          "Basic SEO",
+          "Reservations Section",
+          "WhatsApp integration",
+          "Monthly Updates and Support"
+        ],
+        "button": "Request"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "Custom quote",
+        "features": [
+          "Full website",
+          "Responsive design",
+          "SEO",
+          "Reservations Section",
+          "Animations",
+          "WhatsApp integration",
+         "Monthly Updates and Support"
+        ],
+        "button": "Request"
+      }
+    }
+  }, "Testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What our clients say",
+    "description": "Our clients' satisfaction is our best introduction.",
+
+    "clients": {
+      "client1": {
+        "name": "Carlos Mendoza",
+        "business": "La Esquina Restaurant",
+        "comment": "Our website started generating reservations during the first week."
+      },
+
+      "client2": {
+        "name": "Ana Torres",
+        "business": "Studio Beauty",
+        "comment": "Our company's image improved dramatically and we gained more customers."
+      },
+
+      "client3": {
+        "name": "Luis Rodríguez",
+        "business": "Financial Consultant",
+        "comment": "Excellent work. The website is fast, modern and professional."
+      }
+    }
   },
   "CTA": {
     "quotenow": "Get a Quote",

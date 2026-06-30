@@ -1,44 +1,46 @@
+"use client";
+
 import SectionTitle from "../atoms/SectionTitle";
 import TestimonialCard from "../molecules/TestimonialCard";
+import { useTranslations } from "next-intl";
 
-const testimonials = [
-  {
-    name: "Carlos Mendoza",
-    business: "Restaurante La Esquina",
-    comment:
-      "Nuestra página web comenzó a generar reservas desde la primera semana.",
-  },
-  {
-    name: "Ana Torres",
-    business: "Studio Beauty",
-    comment:
-      "La imagen de nuestra empresa mejoró muchísimo y conseguimos más clientes.",
-  },
-  {
-    name: "Luis Rodríguez",
-    business: "Consultor Financiero",
-    comment:
-      "Excelente trabajo. El sitio es rápido, moderno y profesional.",
-  },
+const clients = [
+  "client1",
+  "client2",
+  "client3"
 ];
 
 export default function Testimonials() {
+
+  const t = useTranslations("Testimonials");
+
   return (
+
     <section className="mx-auto max-w-7xl px-6 py-24">
+
       <SectionTitle
-        eyebrow="Clientes"
-        title="Lo que dicen nuestros clientes"
-        description="Resultados reales para negocios reales."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        description={t("description")}
       />
 
       <div className="grid gap-6 md:grid-cols-3">
-        {testimonials.map((testimonial) => (
+
+        {clients.map((client) => (
+
           <TestimonialCard
-            key={testimonial.name}
-            {...testimonial}
+            key={client}
+            name={t(`clients.${client}.name`)}
+            business={t(`clients.${client}.business`)}
+            comment={t(`clients.${client}.comment`)}
           />
+
         ))}
+
       </div>
+
     </section>
+
   );
+
 }

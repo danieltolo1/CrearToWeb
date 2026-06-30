@@ -44,14 +44,75 @@
     "step3": "Desarrollo",
     "step4": "Entrega"
   },
-  "Pricing": {
+   "Pricing": {
     "eyebrow": "Precios",
     "title": "Paquetes simples y claros",
-    "description": "Elige el plan ideal según la etapa de tu negocio.",
-    "step1": "Consulta",
-    "step2": "Diseño",
-    "step3": "Desarrollo",
-    "step4": "Entrega"
+    "description": "Escoge el plan anual que se acomode a tus necesidades.",
+    "plans": {
+      "basic": {
+        "name": "Básico",
+        "price": "Desde $40 mensual",
+        "features": [
+          "Landing page",
+          "Diseño responsive",
+          "Formulario de contacto",
+          "Actualizacion y Soporte mensual"
+        ],
+        "button": "Solicitar"
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "Desde $70 mensual",
+        "features": [
+          "Hasta 5 secciones",
+          "Diseño responsive",
+          "SEO básico",
+          "Seccion de Reservas",
+          "WhatsApp integrado",
+          "Actualizacion y Soporte mensual"
+        ],
+        "button": "Solicitar"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "Cotización personalizada",
+        "features": [
+          "Web completa",
+          "Diseño responsive",
+          "SEO",
+          "Seccion de Reservas",
+          "Animaciones",
+          "WhatsApp integrado",
+          "Actualizacion y Soporte mensual"
+        ],
+        "button": "Solicitar"
+      }
+    }
+  },
+  "Testimonials": {
+    "eyebrow": "Testimonios",
+    "title": "Lo que dicen nuestros clientes",
+    "description": "La satisfacción de nuestros clientes es nuestra mejor carta de presentación.",
+
+    "clients": {
+      "client1": {
+        "name": "Carlos Mendoza",
+        "business": "Restaurante La Esquina",
+        "comment": "Nuestra página web comenzó a generar reservas desde la primera semana."
+      },
+
+      "client2": {
+        "name": "Ana Torres",
+        "business": "Studio Beauty",
+        "comment": "La imagen de nuestra empresa mejoró muchísimo y conseguimos más clientes."
+      },
+
+      "client3": {
+        "name": "Luis Rodríguez",
+        "business": "Consultor Financiero",
+        "comment": "Excelente trabajo. El sitio es rápido, moderno y profesional."
+      }
+    }
   },
   "CTA": {
     "quotenow": "Cotiza ahora",
