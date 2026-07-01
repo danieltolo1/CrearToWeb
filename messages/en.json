@@ -113,11 +113,45 @@
       }
     }
   },
+  "Contact": {
+    "title": "Request your quote",
+    "description": "Tell us about your project and we will reply as soon as possible.",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Tell us about your project",
+    "button": "Send message",
+    "sending": "Sending...",
+    "success": "Thank you. Your message was sent successfully.",
+    "error": "Something went wrong. Please try again."
+  },
+  "Portfolio": {
+  "eyebrow": "Portfolio",
+  "title": "Recent projects",
+  "description": "Some examples of websites developed.",
+  "viewProject": "View project"
+},
   "CTA": {
     "quotenow": "Get a Quote",
     "description": "Modern websites that turn visitors into customers",
     "description2": "We create fast, modern websites designed to sell your products or services.",
      "firstbutton": "Latam WhatsApp",
     "secondbutton": "Usa WhatsApp"
-  }
+  },
+  "Footer": {
+  "description": "We create modern, fast websites focused on turning visitors into customers.",
+  "navigation": "Navigation",
+  "services": "Services",
+  "contact": "Contact",
+  "social": "Social",
+  "home": "Home",
+  "portfolio": "Portfolio",
+  "pricing": "Pricing",
+  "landingPages": "Landing pages",
+  "corporateWebsites": "Corporate websites",
+  "onlineStores": "Online stores",
+  "maintenance": "Web maintenance",
+  "location": "Pereira, Colombia",
+  "rights": "All rights reserved.",
+  "developed": "Built with Next.js"
+}
 }

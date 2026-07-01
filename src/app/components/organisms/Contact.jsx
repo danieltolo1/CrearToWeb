@@ -1,78 +1,77 @@
 "use client";
 
-import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { useForm } from "@formspree/react";
 
 export default function Contact() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    project: "",
-  });
+  const t = useTranslations("Contact");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const [state, handleSubmit] = useForm("mykqnnvz");
 
-    const message = `
-Nombre: ${form.name}
-Email: ${form.email}
-Proyecto: ${form.project}
-`;
-
-    window.open(
-      `https://wa.me/50760000000?text=${encodeURIComponent(
-        message
-      )}`
+  if (state.succeeded) {
+    return (
+      <section id="contacto" className="mx-auto max-w-4xl px-6 py-24">
+        <div className="rounded-3xl border border-cyan-400/20 bg-white/5 p-8 text-center">
+          <h2 className="text-3xl font-bold text-cyan-400">
+            {t("success")}
+          </h2>
+        </div>
+      </section>
     );
-  };
+  }
 
   return (
-    <section className="mx-auto max-w-4xl px-6 py-24">
-      <h2 className="mb-8 text-center text-4xl font-bold">
-        Solicita tu cotización
-      </h2>
+    <section id="contacto" className="mx-auto max-w-4xl px-6 py-24">
+      <div className="mb-10 text-center">
+        <h2 className="text-4xl font-bold md:text-5xl">
+          {t("title")}
+        </h2>
+
+        <p className="mx-auto mt-4 max-w-2xl text-slate-400">
+          {t("description")}
+        </p>
+      </div>
 
       <form
         onSubmit={handleSubmit}
-        className="space-y-4 rounded-3xl border border-white/10 bg-white/5 p-8"
+        className="space-y-4 rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8"
       >
         <input
-          placeholder="Nombre"
-          className="w-full rounded-xl bg-slate-900 p-4"
-          onChange={(e) =>
-            setForm({
-              ...form,
-              name: e.target.value,
-            })
-          }
+          type="text"
+          name="name"
+          required
+          placeholder={t("name")}
+          className="w-full rounded-xl border border-white/10 bg-slate-900 p-4 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-400"
         />
 
         <input
-          placeholder="Correo"
-          className="w-full rounded-xl bg-slate-900 p-4"
-          onChange={(e) =>
-            setForm({
-              ...form,
-              email: e.target.value,
-            })
-          }
+          type="email"
+          name="email"
+          required
+          placeholder={t("email")}
+          className="w-full rounded-xl border border-white/10 bg-slate-900 p-4 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-400"
         />
 
         <textarea
-          placeholder="Cuéntanos tu proyecto"
+          name="message"
+          required
           rows="5"
-          className="w-full rounded-xl bg-slate-900 p-4"
-          onChange={(e) =>
-            setForm({
-              ...form,
-              project: e.target.value,
-            })
-          }
+          placeholder={t("message")}
+          className="w-full resize-none rounded-xl border border-white/10 bg-slate-900 p-4 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-400"
         />
 
+        {state.errors && (
+          <p className="text-sm text-red-400">
+            {t("error")}
+          </p>
+        )}
+
         <button
-          className="w-full rounded-xl bg-cyan-400 p-4 font-semibold text-slate-950"
+          type="submit"
+          disabled={state.submitting}
+          className="w-full rounded-xl bg-cyan-400 p-4 font-semibold text-slate-950 transition hover:bg-cyan-300 disabled:cursor-not-allowed disabled:opacity-60"
         >
-          Enviar
+          {state.submitting ? t("sending") : t("button")}
         </button>
       </form>
     </section>

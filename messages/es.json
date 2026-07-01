@@ -114,11 +114,45 @@
       }
     }
   },
+  "Contact": {
+    "title": "Solicita tu cotización",
+    "description": "Cuéntanos sobre tu proyecto y te responderemos lo antes posible.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Cuéntanos tu proyecto",
+    "button": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "Gracias. Tu mensaje fue enviado correctamente.",
+    "error": "Hubo un error. Intenta nuevamente."
+  },
+  "Portfolio": {
+  "eyebrow": "Portafolio",
+  "title": "Proyectos recientes",
+  "description": "Algunos ejemplos de páginas web desarrolladas.",
+  "viewProject": "Ver proyecto"
+},
   "CTA": {
     "quotenow": "Cotiza ahora",
     "description": "Convierte tu idea en una página web profesional",
     "description2": "Creamos sitios rápidos, modernos y diseñados para vender tus productos o servicios.",
     "firstbutton": "Latam WhatsApp",
     "secondbutton": "Usa WhatsApp"
-  }
+  },
+  "Footer": {
+  "description": "Creamos páginas web modernas, rápidas y enfocadas en convertir visitantes en clientes.",
+  "navigation": "Navegación",
+  "services": "Servicios",
+  "contact": "Contacto",
+  "social": "Redes",
+  "home": "Inicio",
+  "portfolio": "Portafolio",
+  "pricing": "Precios",
+  "landingPages": "Landing pages",
+  "corporateWebsites": "Sitios corporativos",
+  "onlineStores": "Tiendas online",
+  "maintenance": "Mantenimiento web",
+  "location": "Pereira, Colombia",
+  "rights": "Todos los derechos reservados.",
+  "developed": "Desarrollado con Next.js"
+}
 }
